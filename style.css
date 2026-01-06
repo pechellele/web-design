@@ -236,3 +236,8 @@ body {
   object-fit: cover;
   border-radius: 20px; /* INI bikin rounded */
 }
+
+.food-section {
+  padding: 100px 10%;
+  background: #fff;
+}
