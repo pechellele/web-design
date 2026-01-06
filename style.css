@@ -203,7 +203,7 @@ body {
 
 .food-section {
   padding: 100px 10%;
-  background: #ffffff;
+  background-color: #0d0d0d;
 }
 
 /* foto + teks sejajar */
@@ -217,7 +217,7 @@ body {
 /* teks kiri */
 .food-text {
   flex: 1;
-  color: #000000;        /* pastikan kelihatan */
+  color: #ffffff;        /* pastikan kelihatan */
   position: static; /* jangan absolute */
 }
 
@@ -231,7 +231,7 @@ body {
 
 .food-image img {
   width: 320px;
-  height: 220px;
+  height: 300px;
   object-fit: cover;
   border-radius: 20px;
 }
