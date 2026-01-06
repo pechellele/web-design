@@ -217,8 +217,8 @@ body {
 /* teks kiri */
 .food-text {
   flex: 1;
-  color: #222;        /* pastikan kelihatan */
-  position: relative; /* jangan absolute */
+  color: #000000;        /* pastikan kelihatan */
+  position: static; /* jangan absolute */
 }
 
 
