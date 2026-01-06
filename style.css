@@ -113,7 +113,7 @@ body {
 .scroll-btn {
     margin-top: 30px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     letter-spacing: 2px;
     animation: bounce 2s infinite;
@@ -201,29 +201,25 @@ body {
   }
 }
 
+.food-section {
+  padding: 100px 10%;
+  background: #fff;
+}
+
+/* foto + teks sejajar */
 .food-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
   margin-bottom: 60px;
 }
 
+/* teks kiri */
 .food-text {
   flex: 1;
 }
 
-.food-text h3 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.food-text p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #444;
-}
-
+/* foto kanan */
 .food-image {
   flex: 1;
   display: flex;
@@ -234,10 +230,5 @@ body {
   width: 320px;
   height: 220px;
   object-fit: cover;
-  border-radius: 20px; /* INI bikin rounded */
-}
-
-.food-section {
-  padding: 100px 10%;
-  background: #fff;
+  border-radius: 20px;
 }
