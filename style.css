@@ -10,7 +10,7 @@ body {
 }
 
 /* NAVBAR */
-.navbar {
+.main-navbar {
   position: absolute;
   top: 0;
   width: 100%;
@@ -18,8 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 10;
-  background-color: #333; 
+  background-color: #333;
 }
 
 .logo {
@@ -39,7 +38,7 @@ body {
   opacity: 100;
 }
 
-.btn {
+.main-btn {
   background: #cddc39;
   border: none;
   padding: 10px 20px;
@@ -234,4 +233,27 @@ body {
   height: 500px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+.culture-section {
+  color: white;
+}
+
+.culture-section h2 {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.culture-text {
+  padding: 30px;
+}
+
+.culture-text h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.culture-text p {
+  font-size: 15px;
+  line-height: 1.7;
 }
